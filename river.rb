@@ -4,8 +4,7 @@ class River
   attr_accessor :length, :countries, :discharge, :name
   def initialize(name = "Hudson")
     @name = name 
-
-end 
+  end 
 
   def flood
     @discharge = @discharge*1.3 
